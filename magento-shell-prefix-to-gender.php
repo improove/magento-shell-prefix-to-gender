@@ -24,14 +24,6 @@
  * @link      http://improove.se
  */
 
-/**
- * Make sure we're on the right version
- */
-if (version_compare(PHP_VERSION, '5.2.17', '>')) {
-    die("PHP version should not be greater than 5.2. Your version: " .
-        PHP_VERSION . "\n");
-}
-
 require_once 'abstract.php';
 
 /**
