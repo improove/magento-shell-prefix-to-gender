@@ -1,26 +1,27 @@
 <?php
 
 /**
- * Short_description
- *
- * Long_description
+ * Set gender by reading the prefix of the user
  *
  * PHP version 5
  *
- * LICENSE: This source file is subject to version 3.01 of the PHP license
- * that is available through the world-wide-web at the following URI:
- * http://www.php.net/license/3_01.txt.  If you did not receive a copy of
- * the PHP License and are unable to obtain it through the web, please
- * send a note to license@php.net so we can mail you a copy immediately.
+ * NOTICE OF LICENSE
  *
- * @category  None
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category  Improove
  * @package   Improove
  * @author    Improove <robert@improove.se>
  * @copyright 2011 Improove
- * @license   http://www.php.net/license/3_01.txt  PHP License 3.01
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  * @version   SVN: $Id$
  * @link      http://improove.se
- * @since     File available since Release 1.2.0
  */
 
 /**
@@ -41,7 +42,7 @@ require_once 'abstract.php';
  * @category Improove
  * @package  Mage_Shell
  * @author   Improove <robert@improove.se>
- * @license  http://www.php.net/license/3_01.txt  PHP License 3.01
+ * @license  http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  * @link     http://improove.se
  */
 class Improove_Prefix_Converter extends Mage_Shell_Abstract
